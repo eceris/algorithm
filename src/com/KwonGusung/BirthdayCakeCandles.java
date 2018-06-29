@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/birthday-cake-candles/problem
+ * @author create2879
+ *
+ */
 public class BirthdayCakeCandles {
 
 	// Complete the birthdayCakeCandles function below.

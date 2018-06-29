@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/a-very-big-sum/problem
+ * @author create2879
+ *
+ */
 public class AVeryBigSum {
 
 	// Complete the aVeryBigSum function below.

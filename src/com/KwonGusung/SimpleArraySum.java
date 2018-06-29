@@ -6,6 +6,11 @@ import java.text.*;
 import java.util.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/simple-array-sum/problem
+ * @author create2879
+ *
+ */
 public class SimpleArraySum {
 
 	/*

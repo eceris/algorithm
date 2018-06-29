@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/compare-the-triplets/problem
+ * @author create2879
+ *
+ */
 public class CompareTheTriplets {
 
 	// Complete the solve function below.

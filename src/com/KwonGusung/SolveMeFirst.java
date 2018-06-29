@@ -6,6 +6,11 @@ import java.text.*;
 import java.math.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/solve-me-first/problem
+ * @author create2879
+ *
+ */
 public class SolveMeFirst {
 
 	static int solveMeFirst(int a, int b) {

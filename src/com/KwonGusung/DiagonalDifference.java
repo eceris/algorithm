@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/diagonal-difference/problem
+ * @author create2879
+ *
+ */
 public class DiagonalDifference {
 	
 	// Complete the diagonalDifference function below.

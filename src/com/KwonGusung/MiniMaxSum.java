@@ -8,6 +8,11 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.util.regex.*;
 
+/**
+ * https://www.hackerrank.com/challenges/mini-max-sum/problem
+ * @author create2879
+ *
+ */
 public class MiniMaxSum {
 
 	// Complete the miniMaxSum function below.
