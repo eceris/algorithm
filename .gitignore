@@ -1,8 +1,9 @@
-/target/
+/target
 .project
 .classpath
 .settings
 *.iml
-/bin/
-/out/
+/bin
+/out
 .idea/
+/output
