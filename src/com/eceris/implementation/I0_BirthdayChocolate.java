@@ -1,8 +1,8 @@
-package com.eceris;
+package com.eceris.implementation;
 
 //  https://www.hackerrank.com/challenges/the-birthday-bar/problem
 
-public class BirthdayChocolate {
+public class I0_BirthdayChocolate {
 
     public static void main(String[] args) {
 

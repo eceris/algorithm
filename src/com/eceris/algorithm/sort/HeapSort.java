@@ -1,15 +1,13 @@
-package kr.co.eceris.algorithm;
+package com.eceris.algorithm.sort;
 
 /**
  * Created by PSH on 2017-07-17.
  */
-public class Heap1Sort {
-    private static int[] HEAP;
-    private static int INDEX = 0;
+public class HeapSort {
     public static void main(String[] args) {
 
-//        int[] numbers = {6,5,3,1,8,7,2,4};
         int[] numbers = {4, 1, 3, 2, 16, 9, 10, 14, 8, 7};
+
 //        1. 주어진 데이터(배열)로 힙을 만든다.
 //        2. 힙에서 최대값(루트)을 가장 마지막 값과 바꾼다.
 //        3. 힙의 크기를 1 줄어든 것으로 간주한다.
@@ -17,25 +15,35 @@ public class Heap1Sort {
 //        5. 2~4번을 반복한다.
 //        heapify();
         System.out.println("END");
-        int LENGTH = numbers.length;
-        HEAP = new int[LENGTH];
-        for (int i =0 ; i <LENGTH; i++ ) {
-            heap(numbers[i]);
-            print(HEAP);
-        }
+        h(numbers, 1);
     }
-//    16 14 10 8 2 3 9 1 4 7
 
-    public static void heap(int item) {
-        int count =  ++INDEX;
-        while((count != 1) &&(item > HEAP[count/2])) {
-            HEAP[count] = HEAP[count/2];
-            count = count/2;
+    public static void heap(int [] numbers, int i) {
+        while (true) {
+            if (i * 2 > numbers.length) { //만약 아래 두개보다 부모가 작으면
+                return;
+            }
+
+            int target = numbers[i - 1];
+            int left = numbers[2 * i - 1];
+            int right = numbers[2 * i];
+
+            if (left > right) {
+                if (left > target) {
+                    numbers[i - 1] = left;
+                    numbers[2 * i - 1] = target;
+                    heap(numbers, i / 2);
+                }
+            } else if (right > left) {
+                if (right > target) {
+                    numbers[i - 1] = right;
+                    numbers[2 * i] = target;
+                    heap(numbers, i / 2);
+                }
+            }
+            i++;
+            print(numbers);
         }
-
-
-            HEAP[count] = item;
-
     }
     //      12
     //     9   8
@@ -48,7 +56,7 @@ public class Heap1Sort {
     //  4
 
     public static void heapify() {
-        //배열을 HEAP 자료형으로 만든다.
+        //배열을 heap 자료형으로 만든다.
         //              1d  2d 2d  3d 3d 3d 3d 4d
 //        int[] numbers = {9, 12, 1, 3, 6, 2, 8, 4};
         // 1depth의 자식노드 numbers[2i], numbers[2i+1]

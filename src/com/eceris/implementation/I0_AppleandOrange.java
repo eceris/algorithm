@@ -1,7 +1,7 @@
-package com.eceris;
+package com.eceris.implementation;
 
 //https://www.hackerrank.com/challenges/apple-and-orange/problem
-public class AppleandOrange {
+public class I0_AppleandOrange {
     public static void main(String[] args) {
         int s = 7;  //start
         int t = 11; //end
