@@ -1,26 +1,6 @@
+
+
 # Algorithm study
-
-## Rules
- - xxxxx
- - xxxxx
- - xxxxx
-
-## TODO
- - 리뷰방식
- - 문제 순서(번호를 매길지 아니면 여기에 계획을 짤지....)
- - 언제 만날지
-
-
-===================================
-질문 응답식으로 ....
-주석도 쓰기 ...
-
-package로 나눈다.
-
-1. Implements / xxxxxxxx[www.hacker...]
-2. Strings / sssssss[]
-
-수요일날 만나기
 
 ## 문제
 1. Implementation / [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)
@@ -32,3 +12,15 @@ package로 나눈다.
 7. Greedy / [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem)
 8. Bit Manipulation / [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)
 9. Game Theory / [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
+
+
+
+## Rules
+ - package명으로 category 구분
+ - 수요일에 리뷰(질문응답)
+ - 코드에 주석
+ 
+## TODO
+ - 리뷰방식
+ - 문제 순서(번호를 매길지 아니면 여기에 계획을 짤지....)
+ - 언제 만날지
