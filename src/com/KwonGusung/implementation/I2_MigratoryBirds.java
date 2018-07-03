@@ -1,4 +1,4 @@
-package com.KwonGusung;
+package com.KwonGusung.implementation;
 
 import java.io.*;
 import java.math.*;
@@ -13,7 +13,7 @@ import java.util.regex.*;
  * @author create2879
  *
  */
-public class MigratoryBirds {
+public class I2_MigratoryBirds {
 
 	// Complete the migratoryBirds function below.
     static int migratoryBirds(int[] ar) {

@@ -1,4 +1,4 @@
-package com.KwonGusung;
+package com.KwonGusung.implementation;
 
 import java.io.*;
 import java.math.*;
@@ -13,7 +13,7 @@ import java.util.regex.*;
  * @author create2879
  *
  */
-public class DivisibleSumPairs {
+public class I1_DivisibleSumPairs {
 
 	// Complete the divisibleSumPairs function below.
     static int divisibleSumPairs(int n, int k, int[] ar) {
