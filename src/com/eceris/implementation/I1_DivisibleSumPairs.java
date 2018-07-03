@@ -1,7 +1,7 @@
-package com.eceris;
+package com.eceris.implementation;
 
 //  https://www.hackerrank.com/challenges/divisible-sum-pairs/problem
-public class DivisibleSumPairs {
+public class I1_DivisibleSumPairs {
 
     public static void main(String[] args) {
         int n = 6, k = 3;
