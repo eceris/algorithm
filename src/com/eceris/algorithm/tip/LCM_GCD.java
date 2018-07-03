@@ -1,6 +1,7 @@
 package com.eceris.algorithm.tip;
 
 public class LCM_GCD {
+
     /**
      * 최대공약수
      * 참조 : https://ko.wikipedia.org/wiki/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98
@@ -47,7 +48,7 @@ public class LCM_GCD {
     }
 
     public static void main(String[] args) {
-        int[] values = new int[]{192, 2, 72};
+        int[] values = {48, 16, 8};
         System.out.println("최대공약수 : " + gcd(values));
         System.out.println("최소공배수 : " + lcm(values));
     }
