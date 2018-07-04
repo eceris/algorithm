@@ -27,7 +27,7 @@ public class Quicksort {
 		int i = left + 1;
 		int j = right;
 		
-		while(i<=j) {
+		while(i<j) {
 			// pivot 보다 큰것이 나올때 까지 index 구함
 			while(i <= right && arr[i] <= pivot) {
 				i++;
@@ -55,5 +55,6 @@ public class Quicksort {
 		int[] arr = {1, 4, 3, 2, 5, 10, 2};
 		quickSort(arr, 0, arr.length - 1);
 		System.out.println(arr);
+		Arrays.stream(arr).forEach(v -> System.out.println(v));
 	}
 }
