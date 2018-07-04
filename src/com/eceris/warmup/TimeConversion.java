@@ -1,4 +1,4 @@
-package com.eceris;
+package com.eceris.warmup;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

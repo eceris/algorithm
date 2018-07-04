@@ -1,4 +1,4 @@
-package kr.co.eceris.algorithm;
+package com.eceris.algorithm.sort;
 
 /**
  * Created by PSH on 2017-07-19.

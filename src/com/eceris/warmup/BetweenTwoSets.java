@@ -1,4 +1,4 @@
-package com.eceris;
+package com.eceris.warmup;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -35,19 +35,43 @@ public class BetweenTwoSets {
         return count;
     }
 
+    //최대 공약수
+    static int getGcd(int n, int m) {
+        int remaind = m % n;
+        if (remaind == 0) {
+            return n;
+        }
+        return getGcd(remaind, n);
+    }
+
+    static int getGcd(int... values) {
+        int gcd = 1;
+        for (int i : values) {
+            gcd = getGcd(gcd, i);
+        }
+        return gcd;
+    }
+
+    //최대 공배수
+    static int getLcm(int m, int n) {
+        return (m * n) / getGcd(m, n);
+    }
+
+    static int getLcm(int... values) {
+        int lcm = 1;
+        for (int i : values) {
+            lcm = getLcm(lcm, i);
+        }
+        return lcm;
+    }
+
+
     //공배수
-    static List<Integer> getMultiple(int [] a) {
+    static List<Integer> getMultiple(int[] a) {
+        int lcm = getLcm(a);
         List<Integer> multiples = new ArrayList<>();
-        for (int i = 1; i <= 100 ; i++) {
-            int count =0;
-            for(int v : a) {
-                if (i % v ==0) {
-                    count++;
-                }
-                if (count == a.length) {
-                    multiples.add(i);
-                }
-            }
+        for (int i = 1; i <= 100; i++) {
+            multiples.add(lcm * i);
         }
         return multiples;
     }

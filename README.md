@@ -6,13 +6,23 @@
 1. Implementation / [Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)
 2. Implementation / [Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)
 3. Implementation / [Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)
-4. String / [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem)
+4. Strings / [Super Reduced String](https://www.hackerrank.com/challenges/reduced-string/problem)
 5. Sorting / [Big Sorting](https://www.hackerrank.com/challenges/big-sorting/problem)
-6. Searching / [Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor/problem)
+6. Search / [Ice Cream Parlor](https://www.hackerrank.com/challenges/icecream-parlor/problem)
 7. Greedy / [Minimum Absolute Difference in an Array](https://www.hackerrank.com/challenges/minimum-absolute-difference-in-an-array/problem)
 8. Bit Manipulation / [Lonely Integer](https://www.hackerrank.com/challenges/lonely-integer/problem)
 9. Game Theory / [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
-
+10. Implementation / [Bon Appétit](https://www.hackerrank.com/challenges/bon-appetit/problem)
+11. Strings / [CamelCase](https://www.hackerrank.com/challenges/camelcase/problem)
+12. Sorting / [Intro to Tutorial Challenges](https://www.hackerrank.com/challenges/tutorial-intro/problem)
+13. Search / [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)
+14. Greedy / [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)
+15. Bit Manipulation / [Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor/problem)
+16. Game Theory
+17. Implementation
+18. Strings
+19. Sorting
+20. Search
 
 
 ## Rules

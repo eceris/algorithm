@@ -1,4 +1,4 @@
-package kr.co.eceris.algorithm;
+package com.eceris.algorithm.sort;
 
 public class Combination {
     public static void main(String[] args) {

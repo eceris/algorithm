@@ -1,4 +1,4 @@
-package kr.co.eceris.algorithm;
+package com.eceris.algorithm.sort;
 
 /**
  * Created by PSH on 2017-07-20. //http://wkdgusdn3.tistory.com/entry/MergeSort%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC

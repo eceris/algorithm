@@ -1,4 +1,4 @@
-package com.eceris;
+package com.eceris.warmup;
 
 //https://www.hackerrank.com/challenges/birthday-cake-candles/problem
 public class BirthdayCakeCandles {

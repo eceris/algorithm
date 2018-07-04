@@ -1,10 +1,10 @@
-package com.eceris;
+package com.eceris.implementation;
 
 //https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem
 
 import java.util.Arrays;
 
-public class BreakingtheRecords {
+public class I0_BreakingtheRecords {
     public static void main(String[] args) {
 
 //        int [] scores = {10, 5, 20, 20, 4, 5, 2, 25, 1};    //2 4
