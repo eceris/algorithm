@@ -1,7 +1,7 @@
-package com.eceris;
+package com.eceris.implementation;
 
 //https://www.hackerrank.com/challenges/kangaroo/problem
-public class Kangaroo {
+public class I0_Kangaroo {
     public static void main(String[] args) {
 
 //        String kangaroo = kangaroo(1571, 4240, 9023, 4234);

@@ -1,9 +1,9 @@
-package com.eceris;
+package com.eceris.implementation;
 
 import java.util.stream.IntStream;
 
 //https://www.hackerrank.com/challenges/grading/problem
-public class GradingStudents {
+public class I0_GradingStudents {
     public static void main(String[] args) {
 //        int[] grades = {73, 67, 38, 33};
         int[] grades = {80, 96, 18, 73, 78, 60, 60, 15, 45, 15, 10, 5, 46, 87, 33, 60, 14, 71, 65, 2, 5, 97, 0};
