@@ -31,13 +31,25 @@ public class S1_BigSorting {
         //bubleSort(unsorted);
         
         // 쿽 정렬로 변경 해야 할듯.. (양방향)
-        quickSort(unsorted, 0, unsorted.length - 1);
-        
-        // 퀵 정렬 (단방향)
         //quickSort(unsorted, 0, unsorted.length - 1);
         
-        return unsorted;
+        // 퀵 정렬 (단방향)
+        //quickSort2(unsorted, 0, unsorted.length - 1);
+        
+        // merge sort
+        //mergeSort(unsorted, 0, unsorted.length - 1);
+        
+    	// 도저히.... 안됨... 뭐지;;;; Testcase6 에서 막힘... 
+        Arrays.sort(unsorted, new Comparator<String>() {
 
+			@Override
+			public int compare(String o1, String o2) {
+				return stringNumberCompare(o1, o2);
+			}
+		});
+        
+        return unsorted;
+        
     }
     
     // Bubble Sort 이용..
@@ -120,6 +132,36 @@ public class S1_BigSorting {
 		// 피벗을 두 리스트 사이에 위치
 		swap(arr, right, storeIndex);
 		return storeIndex;
+	}
+    
+    // merge sort 이용 최소 nlogn 은 보장.... 퀵소트 경우 최악에 n2 이 발생할수도..
+    static void mergeSort(String[] arr, int left, int right) {
+		if(left < right) {
+			int middle = (left + right) / 2;
+			mergeSort(arr, left, middle);
+			mergeSort(arr, middle + 1, right);
+			merge(arr, left, middle, right);
+		}
+	}
+	
+    static void merge(String[] arr, int left, int middle, int right) {
+		int i = left;
+		int j = middle+1;
+		int k = left;
+		String[] temp = new String[arr.length];
+		while(i<=middle && j<=right) {
+			if(stringNumberCompare(arr[i], arr[j]) < 0) {
+				temp[k++] = arr[i++];
+			}else {
+				temp[k++] = arr[j++];
+			}
+		}
+		while(i<=middle)
+			temp[k++] = arr[i++];
+		while(j<=right)
+			temp[k++] = arr[j++];
+		for(int index=left; index<k; index++)
+			arr[index] = temp[index];
 	}
     
     static int stringNumberCompare(String val1, String val2) {
