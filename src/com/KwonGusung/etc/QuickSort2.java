@@ -17,7 +17,7 @@ public class QuickSort2 {
 		// 피벗을 끝으로 옮김
 		swap(arr, pivotIndex, right);
 		int storeIndex = left;
-		for(int i = left; i < right-1; i++) {
+		for(int i = left; i < right; i++) {
 			if(arr[i] <= pivotValue) {
 				swap(arr, storeIndex, i);
 				storeIndex++;

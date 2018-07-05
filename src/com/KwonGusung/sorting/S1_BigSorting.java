@@ -36,43 +36,52 @@ public class S1_BigSorting {
 
     }
     
-    static void quickSort(String[] arr, int left, int right) {
-		if(left <= right) {
-			int q = partition(arr, left, right);
-			quickSort(arr, left, q - 1);
-			quickSort(arr, q +1, right);
+    
+    /**
+     * val1 이 크면 양수 val2 가 크면 음수
+     * @param val1
+     * @param val2
+     * @return
+     */
+    static int stringNumberCompare(String val1, String val2) {
+    	if(val1.length() == val2.length()) {
+    		return val1.compareTo(val2);
+    	} else {
+    		return val1.length() - val2.length();
+    	}
+    }
+    
+    static int partition(String[] arr, int left, int right, int pivotIndex) {
+		String pivotValue = arr[pivotIndex];
+		
+		// 피벗을 끝으로 옮김
+		swap(arr, pivotIndex, right);
+		int storeIndex = left;
+		for(int i = left; i < right; i++) {
+			if(stringNumberCompare(arr[i], pivotValue) <= 0) {
+				swap(arr, storeIndex, i);
+				storeIndex++;
+			}
+		}
+		
+		// 피벗을 두 리스트 사이에 위치
+		swap(arr, right, storeIndex);
+		return storeIndex;
+	}
+	
+	static void quickSort(String[] arr, int left, int right) {
+		if(right > left) {
+			int pivotIndex = (left + right) / 2;
+			int pivotNewIndex = partition(arr, left, right, pivotIndex);
+			quickSort(arr, left, pivotNewIndex-1);
+			quickSort(arr, pivotNewIndex+1, right);
 		}
 	}
 	
-	static int partition(String[] arr, int left, int right) {
-		String pivot = arr[left];
-		int i = left + 1;
-		int j = right;
-		
-		while(i<j) {
-			// pivot 보다 큰것이 나올때 까지 index 구함
-			while(i <= right 
-					&& (arr[i].length() < pivot.length() || (arr[i].length() == pivot.length() && arr[i].compareTo(pivot) < 0))) {
-				i++;
-			}
-			// pivot 보다 작은것이 나올때 까지 index 구함
-			while((left + 1) <= j 
-					&& (arr[j].length() > pivot.length() || (arr[j].length() == pivot.length() && arr[j].compareTo(pivot) > 0))) {
-				j--;
-			}
-			
-			// 왼쪽탐색중 pivot 보다 큰것과 오른쪽 탐색중 pivot 보다 작은것을 서로 교체
-			if(i <= j) {
-				String temp = arr[i];
-				arr[i] = arr[j];
-				arr[j] = temp;				
-			}
-		}
-		
-		String temp = arr[left];
-		arr[left] = arr[j];
-		arr[j] = temp;
-		return j;
+	static void swap(String[] arr, int idx1, int idx2) {
+		String temp = arr[idx1];
+		arr[idx1] = arr[idx2];
+		arr[idx2] = temp;
 	}
     
     public static void main(String[] args) {
