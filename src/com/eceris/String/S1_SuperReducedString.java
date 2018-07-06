@@ -3,7 +3,7 @@ package com.eceris.String;
 
 import java.util.Stack;
 
-public class SuperReducedString {
+public class S1_SuperReducedString {
     public static void main(String[] args) {
         String superReducedString = super_reduced_string("aaabccddd");
         System.out.println(superReducedString);
