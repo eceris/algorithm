@@ -46,12 +46,14 @@ public class I4_BonAppetit {
 		BigDecimal num = new BigDecimal(2);
 		
 		
-		int result = bSum.divide(num).intValue();
+		double result = bSum.divide(num).doubleValue();
+		
+		DecimalFormat df = new DecimalFormat("#.##");
 		
 		if(b - result == 0) {
 			return "Bon Appetit";
 		} else {
-			return String.valueOf(b - result);
+			return df.format(b - result);
 		}
 	}
 }
