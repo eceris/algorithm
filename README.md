@@ -18,11 +18,11 @@
 13. Search / [Missing Numbers](https://www.hackerrank.com/challenges/missing-numbers/problem)
 14. Greedy / [Marc's Cakewalk](https://www.hackerrank.com/challenges/marcs-cakewalk/problem)
 15. Bit Manipulation / [Maximizing XOR](https://www.hackerrank.com/challenges/maximizing-xor/problem)
-16. Game Theory
-17. Implementation
-18. Strings
-19. Sorting
-20. Search
+16. Game Theory / [Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)
+17. Implementation / [Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem)
+18. Strings / [Strong Password](https://www.hackerrank.com/challenges/strong-password/problem)
+19. Sorting / [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
+20. Search / [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
 
 
 ## Rules
