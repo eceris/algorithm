@@ -23,6 +23,13 @@
 18. Strings / [Strong Password](https://www.hackerrank.com/challenges/strong-password/problem)
 19. Sorting / [Insertion Sort - Part 1](https://www.hackerrank.com/challenges/insertionsort1/problem)
 20. Search / [Sherlock and Array](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
+21. Greedy /
+22. Bit Manipulation /
+23. Game Theory /
+24. Implementation /
+25. Strings /
+26. Sorting /
+27. Search /
 
 
 ## Rules
