@@ -3,7 +3,7 @@ package com.eceris.Search;
 import java.util.Arrays;
 
 //    https://www.hackerrank.com/challenges/icecream-parlor/problem
-public class IceCreamParlor {
+public class S1_IceCreamParlor {
     public static void main(String[] args) {
         int m = 4;
         int arr[] = {2, 2, 4, 3};
