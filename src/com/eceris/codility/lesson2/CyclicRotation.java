@@ -1,4 +1,4 @@
-package com.eceris.codility;
+package com.eceris.codility.lesson2;
 
 import java.util.LinkedList;
 

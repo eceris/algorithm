@@ -1,4 +1,4 @@
-package com.eceris.codility;
+package com.eceris.codility.lesson1;
 
 import java.util.Stack;
 
