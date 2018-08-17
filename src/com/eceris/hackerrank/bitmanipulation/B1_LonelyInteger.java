@@ -1,4 +1,4 @@
-package com.eceris.BitManipulation;
+package com.eceris.hackerrank.bitmanipulation;
 
 import java.util.HashMap;
 import java.util.Iterator;

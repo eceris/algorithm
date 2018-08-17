@@ -1,6 +1,4 @@
-package com.eceris.String;
-
-import java.util.concurrent.Callable;
+package com.eceris.hackerrank.string;
 
 //    https://www.hackerrank.com/challenges/camelcase/problem
 public class S2_CamelCase {

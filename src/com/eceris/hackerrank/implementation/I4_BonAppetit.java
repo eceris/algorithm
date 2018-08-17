@@ -1,4 +1,4 @@
-package com.eceris.implementation;
+package com.eceris.hackerrank.implementation;
 
 import java.util.Scanner;
 

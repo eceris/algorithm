@@ -1,4 +1,4 @@
-package com.eceris.String;
+package com.eceris.hackerrank.string;
 //    https://www.hackerrank.com/challenges/reduced-string/problem
 
 import java.util.Stack;

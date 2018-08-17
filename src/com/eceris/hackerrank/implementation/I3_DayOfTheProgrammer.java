@@ -1,4 +1,4 @@
-package com.eceris.implementation;
+package com.eceris.hackerrank.implementation;
 
 // https://www.hackerrank.com/challenges/day-of-the-programmer/problem
 public class I3_DayOfTheProgrammer {

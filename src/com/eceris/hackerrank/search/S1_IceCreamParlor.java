@@ -1,4 +1,4 @@
-package com.eceris.Search;
+package com.eceris.hackerrank.search;
 
 import java.util.Arrays;
 

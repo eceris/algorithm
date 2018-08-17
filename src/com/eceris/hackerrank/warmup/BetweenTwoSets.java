@@ -1,4 +1,4 @@
-package com.eceris.warmup;
+package com.eceris.hackerrank.warmup;
 
 import java.util.*;
 import java.util.stream.Collectors;

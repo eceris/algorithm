@@ -1,4 +1,4 @@
-package com.eceris.Sorting;
+package com.eceris.hackerrank.sorting;
 //    https://www.hackerrank.com/challenges/tutorial-intro/problem
 public class S2_TutorialIntro {
     public static void main(String[] args) {

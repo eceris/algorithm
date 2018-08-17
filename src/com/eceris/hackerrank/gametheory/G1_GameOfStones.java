@@ -1,4 +1,4 @@
-package com.eceris.GameTheory;
+package com.eceris.hackerrank.gametheory;
 //    https://www.hackerrank.com/challenges/game-of-stones-1/problem
 public class G1_GameOfStones {
     public static void main(String[] args) {

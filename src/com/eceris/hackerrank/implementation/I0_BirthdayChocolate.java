@@ -1,4 +1,4 @@
-package com.eceris.implementation;
+package com.eceris.hackerrank.implementation;
 
 //  https://www.hackerrank.com/challenges/the-birthday-bar/problem
 

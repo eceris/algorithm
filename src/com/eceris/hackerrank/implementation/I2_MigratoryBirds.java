@@ -1,4 +1,4 @@
-package com.eceris.implementation;
+package com.eceris.hackerrank.implementation;
 
 import java.util.HashMap;
 import java.util.concurrent.atomic.AtomicInteger;

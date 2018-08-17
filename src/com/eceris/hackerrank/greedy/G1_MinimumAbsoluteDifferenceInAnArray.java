@@ -1,4 +1,4 @@
-package com.eceris.Greedy;
+package com.eceris.hackerrank.greedy;
 
 import java.util.Arrays;
 

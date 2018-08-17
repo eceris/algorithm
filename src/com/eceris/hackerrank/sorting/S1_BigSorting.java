@@ -1,4 +1,4 @@
-package com.eceris.Sorting;
+package com.eceris.hackerrank.sorting;
 
 import java.util.Arrays;
 
